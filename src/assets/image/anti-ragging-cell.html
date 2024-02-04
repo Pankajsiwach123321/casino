@@ -1,0 +1,699 @@
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>-->
+
+	<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<title>ASUTOSH COLLEGE &#8211; University of Calcutta (C.U.)</title>
+<meta name='robots' content='max-image-preview:large' />
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ecsprojects.net\/asutoshcollege\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+        <script type="text/javascript">
+//	window.addEventListener("resize", function() {
+//		"use strict"; window.location.reload(); 
+//	});
+
+
+	document.addEventListener("DOMContentLoaded", function(){
+        
+
+    	/////// Prevent closing from click inside dropdown
+		document.querySelectorAll('.dropdown-menu').forEach(function(element){
+			element.addEventListener('click', function (e) {
+			  e.stopPropagation();
+			});
+		})
+
+
+
+		// make it as accordion for smaller screens
+		if (window.innerWidth < 992) {
+
+			// close all inner dropdowns when parent is closed
+			document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+				everydropdown.addEventListener('hidden.bs.dropdown', function () {
+					// after dropdown is hidden, then find all submenus
+					  this.querySelectorAll('.submenu').forEach(function(everysubmenu){
+					  	// hide every submenu as well
+					  	everysubmenu.style.display = 'none';
+					  });
+				})
+			});
+			
+			document.querySelectorAll('.dropdown-menu a').forEach(function(element){
+				element.addEventListener('click', function (e) {
+		
+				  	let nextEl = this.nextElementSibling;
+				  	if(nextEl && nextEl.classList.contains('submenu')) {	
+				  		// prevent opening link if link needs to open dropdown
+				  		e.preventDefault();
+				  		console.log(nextEl);
+				  		if(nextEl.style.display == 'block'){
+				  			nextEl.style.display = 'none';
+				  		} else {
+				  			nextEl.style.display = 'block';
+				  		}
+
+				  	}
+				});
+			})
+		}
+		// end if innerWidth
+
+	}); 
+	// DOMContentLoaded  end
+</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<!--<link rel='stylesheet' id='wp-block-library-css'  href='index.html/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' />-->
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+	/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
+</style>
+
+<link rel='stylesheet' id='contact-form-7-css'  href='css/styles.css' type='text/css' media='all' />
+
+<link rel='stylesheet' id='developer-css'  href="css/developer.css" type='text/css' media='all' />
+
+<script type='text/javascript' src='js/jquery.min.js' id='jquery-core-js'></script>
+<script type='text/javascript' src='js/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+
+	
+<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html"); 
+});
+</script>
+
+<!-- Font Awesome -->
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+</head>
+
+<body class="home blog logged-in wp-embed-responsive">
+
+<div id="header"></div>
+
+<!--<header>
+<nav class="navbar navbar-expand-lg bg-ecs">
+  <div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="main_nav">
+	
+
+	<ul id="menu-navbar-menu" class="navbar-nav">
+		<li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+		<li class="nav-item dropdown">
+        	<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> About Us</a>
+            <ul class="dropdown-menu">
+            	<li><a class="dropdown-item" href="2F-12B.html"> 2F &12B </a></li>
+                <li><a class="dropdown-item" href="naac.html"> NAAC Certificate</a></li>
+                <li><a class="dropdown-item" href="aishe.html"> AISHE</a></li>
+                <li><a class="dropdown-item" href="ngo_darpan.html"> NGO</a></li>
+            	<li><a class="dropdown-item" href="about-the-college.html"> About the College </a></li>
+                <li><a class="dropdown-item" href="#"> Best Practices</a></li>
+                <li><a class="dropdown-item" href="#"> Uniqueness</a></li>
+            </ul>
+        </li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Administration</a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="administrative-history.html"> Administrative History</a></li>
+			  <li><a class="dropdown-item" href="governing-body.html"> Governing Body</a></li>
+			  <li><a class="dropdown-item" href="administrative-head.html"> Administrative Head</a></li>
+			  <li><a class="dropdown-item" href="general-administration.html"> General Administration</a></li>
+              <li><a class="dropdown-item" href="office.html"> Office</a></li>
+              <li><a class="dropdown-item" href="#"> Account</a></li>
+              <li><a class="dropdown-item" href="enquiry-office.html">Enquiry Office</a></li>
+              <li><a class="dropdown-item" href="post-graduate-office.html"> Post Graduate Office</a></li>
+              <li><a class="dropdown-item" href="sub-offices.html"> Sub Offices</a></li>
+              <li><a class="dropdown-item" href="computer-it-cell.html"> Computer (IT) CELL</a></li>
+		    </ul>
+		</li>
+        <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Courses</a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Post Graduate</a></li>
+			  <li><a class="dropdown-item" href="#"> Under Graduate</a></li>
+			  <li><a class="dropdown-item" href="#"> B.VOC (UGC)</a></li>
+              <li><a class="dropdown-item" href="#"> Diploma Under Community College (UGC)</a></li>
+              <li><a class="dropdown-item" href="MA-MSc-MCom-Distance-Education-Admission.html"> M.A./ M.Sc./ M.Com Distance Education Admission</a></li>
+              <li><a class="dropdown-item" href="safety-engineering-course.html"> Safety Engineering Course</a></li>
+             <li><a class="dropdown-item" href="certificate-course.html"> Certificate Course</a></li>
+              <li><a class="dropdown-item" href="#"> Professional Course</a></li>
+		    </ul>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Departments </a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Post Graduate &raquo; </a>
+			  	 <ul class="submenu dropdown-menu">
+				    <li><a class="dropdown-item" href="about-bengali.html">Bengali</a></li>
+				    <li><a class="dropdown-item" href="about-computer-science.html">Computer Science</a></li>
+				    <li><a class="dropdown-item" href="about-environmental-science.html">Environmental Science</a></li>
+                    <li><a class="dropdown-item" href="about-geography.html">Geography</a></li>
+				    <li><a class="dropdown-item" href="about-geology.html">Geology</a></li>
+				    <li><a class="dropdown-item" href="about-zoology.html">Zoology</a></li>
+				 </ul>
+			  </li>
+			  <li><a class="dropdown-item" href="#"> Under Graduate &raquo; </a>
+			  	 <ul class="submenu dropdown-menu">
+				    <li><a class="dropdown-item" href="#">Science  &raquo;</a>
+                    	<ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="about-biochemistry.html">Bio-Chemistry</a></li>
+                            <li><a class="dropdown-item" href="about-botany.html">Botany</a></li>
+                            <li><a class="dropdown-item" href="about-chemistry.html">Chemistry</a></li>
+                            <li><a class="dropdown-item" href="about-computer-science.html">Computer Science</a></li>
+                            <li><a class="dropdown-item" href="about-economics.html">Economics</a></li>
+                            <li><a class="dropdown-item" href="about-electronics.html">Electronics</a></li>
+                            <li><a class="dropdown-item" href="about-geography.html">Geography</a></li>
+                            <li><a class="dropdown-item" href="about-geology.html">Geology</a></li>
+                            <li><a class="dropdown-item" href="about-mathematics.html">Mathematics</a></li>
+                            <li><a class="dropdown-item" href="about-microbiology.html">Microbiology</a></li>
+                            <li><a class="dropdown-item" href="about-physics.html">Physics</a></li>
+                            <li><a class="dropdown-item" href="about-psychology.html">Psychology</a></li>
+                            <li><a class="dropdown-item" href="about-statistics.html">Statistics</a></li>
+                            <li><a class="dropdown-item" href="about-zoology.html">Zoology</a></li>
+                            <li><a class="dropdown-item" href="about-environmental-science.html">Environmental Science</a></li>
+                            <li><a class="dropdown-item" href="about-industrial-fish-and-fisheries.html">Industrial Fish and Fisheries</a></li>
+                         </ul>
+                    </li>
+				    <li><a class="dropdown-item" href="#">Arts  &raquo;</a>
+                    	<ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="about-bengali.html">Bengali</a></li>
+                            <li><a class="dropdown-item" href="about-english.html">English</a></li>
+                            <li><a class="dropdown-item" href="about-hindi.html">Hindi</a></li>
+                            <li><a class="dropdown-item" href="about-history.html">History</a></li>
+                            <li><a class="dropdown-item" href="about-journalism-and-mass-communication.html">Journalism and Mass Communication</a></li>
+                            <li><a class="dropdown-item" href="about-philosophy.html">Philosophy</a></li>
+                            <li><a class="dropdown-item" href="about-pol-science.html">Political Science</a></li>
+                            <li><a class="dropdown-item" href="about-sanskrit.html"> 	Sanskrit</a></li>
+                            <li><a class="dropdown-item" href="about-sociology.html">Sociology</a></li>
+                            <li><a class="dropdown-item" href="about-communicative-english.html">Communicative English</a></li>
+                         </ul>
+                    </li>
+				    <li><a class="dropdown-item" href="about-management.html">Management</a></li>
+				    <li><a class="dropdown-item" href="about-vocational.html">Vocational</a></li>
+				 </ul>
+			  </li>
+              <li><a class="dropdown-item" href="#"> Diploma & Certificate Courses &raquo;</a>
+			  	 <ul class="submenu dropdown-menu">
+				    <li><a class="dropdown-item" href="about-safety-engineering.html">Safety Engineering</a></li>
+				    <li><a class="dropdown-item" href="#">Certificate Courses</a>
+                    	<ul class="submenu dropdown-menu">
+                            <li><a class="dropdown-item" href="about-basic-computer-course.html">Basic Computer Course</a></li>
+                            <li><a class="dropdown-item" href="about-career-counselling.html">Career Counselling</a></li>
+                            <li><a class="dropdown-item" href="about-soft-skills.html">Soft Skills</a></li>
+                        </ul>
+                    </li>
+				    <li><a class="dropdown-item" href="about-professional-course.html">Professional Course</a></li>
+				 </ul>
+			  </li>
+		    </ul>
+		</li>
+        
+        <li class="nav-item"><a class="nav-link" href="research-center.html"> Research Center</a></li>
+        <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Admission</a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="#"> Post Graduate</a></li>
+			  <li><a class="dropdown-item" href="#"> Under Graduate</a></li>
+			  <li><a class="dropdown-item" href="#"> B.VOC (UGC)</a></li>
+		    </ul>
+		</li>
+        <li class="nav-item"><a class="nav-link" href="#"> Library</a></li>
+        <!--<li class="nav-item"><a class="nav-link" href="#"> Govt. Order</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="#"> NAAC</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> IQAC</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> Examination</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> Prospectus</a></li>
+        <li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Login</a>
+		    <ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="https://cloud.asutoshcollege.in/StudentPortal/Login.aspx"> Student</a></li>
+			  <li><a class="dropdown-item" href="#"> Teacher</a></li>
+			  <li><a class="dropdown-item" href="https://cloud.asutoshcollege.in/Login.aspx?redirecturl=College"> Staff</a></li>
+              <li><a class="dropdown-item" href="#"> Alumni</a></li>
+		    </ul>
+		</li>
+        
+	</ul>
+
+  </div> 
+ </div>
+</nav>
+<div class="col-sm-12 logo-area d-flex">
+<div class="col-logo"><a title="ASUTOSH COLLEGE" href="index.html"><img src="images/image-logo-01.png" class="img-fluid max-h-120"/></a></div>
+<div class="col-sm naac-bg-container">
+		<div class="naac-container"><img src="images/A_grade.png" class="img-fluid max-h-120"/></div>
+		<div class="text-scroll">
+		<marquee direction="left">
+		<ul>
+			<li><a href="http://ecsprojects.net/asutoshcollege/under-graduate-admission/">Online UG & PG admission to next semester</a></li>		</ul>
+				</marquee>
+		</div>
+</div>
+<div class="col-celebration text-end"><a href="centenary-celebration.html" class="btn-celebrating"><img src="images/celebrating-100-years_120x120.gif" class="img-fluid max-h-120"/></a></div>
+</div>
+</header>-->
+<main>
+
+	<div class="container-fluid pt-5 pb-5 d-flex bt-5-cc">
+	  <div class="col-md-3">
+        	<div class="left-menu-area">
+            	<h2><span class="title page_title">Anti - Ragging Committee</span></h2>
+                <ul>
+               	  <li><a href="anti-ragging-cell.html">About the Committee</a></li>
+                    <li><a href="anti-ragging-cell-member.html">Members</a></li>
+					 <li><a href="anti-ragging-cell-minutes.html">Minutes</a></li>
+                    <li><a href="anti-ragging-cell-activities.html">Activities</a></li>
+                    <li><a href="anti-ragging-cell-gallery.html">Gallery</a></li>
+              </ul>
+        </div>
+      </div>
+      
+      <div class="col-md-9">
+      
+      		<div class="right-content">
+                <div class="col-sm-12">
+       	<h1 class="title page_title">About the Cell</h1>
+        
+        	<p style="text-align:right;"><strong>Contact Email-Id</strong> : <a href="mailto:antiragging.cell@asutoshcollege.in" target="_blank">antiragging.cell@asutoshcollege.in</a></p>
+            
+            <div class="full-content-img">
+            
+            	<img src="images/anti-ragging-header.jpg" />
+            
+            </div>
+       	
+        	<h3>INTRODUCTION</h3>
+        
+        <p>Asutosh College ensures  a completely ragging free environment in the college campus and hostel  premises. Our College believes in an easeful space, where our new students  unhesitatingly participate in various activities including teaching-learning  with the existing students. Asutosh College assures that any activity – be it  verbal or written, physical or psychological – by any student/a group of  students causing damage to the other student(s) is strictly prohibited. Asutosh  College Anti-Ragging Cell monitors such cases minutely and informs the College  for appropriate action. The Cell, moreover, looks after that there will be no  such incident of ragging in the campus as well as in the College hostels. </p>
+        
+        <p>The  UGC had recommended that the Universities/Colleges/ Institutes must have a  committee and a separate cell to deal with issues of Anti ragging violence to  evaluate, assist and support Higher Educational institutes to meet certain  requirements which will be made mandatory in order to give effect to a policy  of zero tolerance of anti-ragging violence. It has requested the colleges to  develop a page on their respective websites for lodging complaints of  anti-ragging harassment, and to maintain a complaints register in the  Principal's office and Grievance Box in the Ground Floor, Main Building. In compliance with the  letter from UGC from time to time, Anti-Ragging Cell of Asutosh College has  been constituted.</p>
+        
+        <h3>Focus </h3>
+        <ul>
+          <li>Declaring the campus as &ldquo;<strong><em>Ragging free</em></strong>&rdquo; </li>
+          <li>Providing adequate impetus through hoardings and  billboards placed at vantage points and through college website </li>
+          <li>Drama related to Anti-Ragging messages</li>
+          <li>Student&rsquo;s council and committee members conduct  regular checks at the beginning of every odd semester</li>
+        </ul>
+        
+        <h3>Measures taken up:</h3>
+        
+        <ul>
+        
+        	<li>Anti-Ragging  Posters received from UGC to be displayed on  notice boards.</li>
+			<li>Organize  competitions like essay writing, slogan writing, poster making, drawing,  oratory etc. on Ragging and or Anti-Ragging to raise awareness among students.</li>
+			<li>Encourage  Students to create prepare placards, boards and slogans to be displayed during  the rally.</li>
+        
+        </ul>
+        
+        <h3>OBJECTIVES</h3>        
+        <ul>
+          <li>To spread awareness  among the students about the consequences of ragging. </li>
+          <li>To keep a close eye and  vigilance over ragging to prevent its occurrence and recurrence. </li>
+          <li>To immediately address  issues related to ragging and take action accordingly.</li>
+          <li>To  generate an atmosphere of discipline by sending a clear message that no act of  ragging will be tolerated and any such act will not go unpunished.</li>
+        </ul>
+        <h3>DEFINITION  OF RAGGING</h3>
+         <p><strong>UGC  has notified the 3rd Amendment in UGC Regulations on 29th June, 2016 to expand  the definition of ragging by including the following:</strong></p>
+          <p>Any  act of physical or mental abuse (including bullying and exclusion) targeted at another  student (fresher or otherwise) on the ground of colour, race, religion, caste, ethnicity,  gender (including transgender), sexual orientation, appearance, nationality, regional  origins, lingusting identity place of birth place of residence or economic background.</p>
+  		<h3>THE  BEGINNING</h3>
+        
+        <p>The  Cell started working with Dr. Sudip Dasgupta, GLI in Geography, Sri Soumen Das,  Assistant Professor in Sociology, and other members from 2016.</p>
+        
+        <h3>ACTIVITIES</h3>
+        
+        <p>In  view of the recommendations of the UGC we, at Asutosh College, have constituted  an Internal Complaints Committee as per in pursuance to the Judgment of the  Hon'ble Supreme Court of India dated 08.05.2009 in civil appeal No 887/2009 the  UGC notified &ldquo;Regulations on Curbing the Meance of Ragging in Higher  Educational Institutions, 2009.&rdquo; The Regulations are available on UGC website,  i.e., www.ugc.ac.in.</p>
+        
+        <p>Students  in distress due to ragging related incidents can call the National Anti-ragging  Helpline 1800-180-5522 (24x7 Toll Free) or e-mail the anti-R Helpline at  helpline@antiragging.in. For any other information regarding ragging please  visit UGC website, i.e., www.ugc.ac.in &amp; www.antiragging.in and contact UGC  monitoring agency, i.e., Aman Satya Kachroo Trust on following No. 09871170303,  09818400116 (Only in case of emergency). </p>
+        <ul>
+          <li>Following the Judgment  of the Hon'ble Supreme Court of India dated 08.05.2009 the college has issued  notices requesting all victimized members to inform and bring to notice without  any hesitation of any instances of Anti-ragging in the college premises.</li>
+          <li>Several meetings were  held to find out whether any such cases had been reported. </li>
+          <li>Anti-ragging harassment  poster have been designed and displayed at our all campuses.</li>
+          <li>Educate students about the consequences of  ragging and teach healthy values to avoid engaging in such behaviour</li>
+          <li>Assist in maintaining the ethos of the  Institution – <strong>&lsquo;<em>A</em> <em>Ragging free campus&rsquo; </em></strong></li>
+          <li>Disseminate information on Anti ragging rules  &amp; regulations </li>
+          <li>Organize awareness-raising programmes</li>
+          <li>Identify and inspect places where ragging may  occur </li>
+          <li>Make surprise visits to classrooms and in hostel</li>
+        </ul>
+        <p>We are fortunate that  no such cases have occurred in our institution till date.</p>
+        
+        <div class="full-content-img">
+            
+            	<img src="images/anti-ragging-footer.jpg" />
+            
+            </div>
+          
+	  </div>
+            </div>
+      </div>
+      
+    
+ </div>
+  <!--<div class="container-fluid bt-5-cc">
+	<div class="container pt-20 pb-20 d-flex">
+	  <div class="col-sm-12">
+       	<h1 class="title page_title">Event Organising Committee(2017 Onwards)</h1>
+       	<h3>Conveners</h3>
+        
+        <ul>
+        	    <li>Dr.  Rina Kar (Datta), Associate Professor in Philosophy</li>
+                <li>Smt  Arundhati Ganguly, Assistant Professor in Environmental Science</li>
+                <li>Dr. Maulisri  Chattopadhyay, SACT in Journalism &amp; Mass Communication</li>
+        </ul>
+        
+        <h3>Members:</h3>
+        
+        
+                    <ol>
+                      <li>Dr.  Sraboni Roy, Associate Professor in English</li>
+                      <li>Dr.  Sayani Mukhopadhyay, Associate Professor in Geography</li>
+                      <li>Dr.  Keya Ghosh, Associate Professor in Chemistry</li>
+                      <li>Dr.  Sriparna Datta Ray, Associate Professor in Zoology</li>
+                      <li>Dr.  Taniya Roy, Assistant Professor in History</li>
+                      <li>Smt  Sritama Chaudhuri, Assistant Professor in Sociology</li>
+                      <li>Dr.  Rimjhim Ray, Assistant Professor in Psychology</li>
+                      <li>Dr.  Ayesha Kabir, Assistant Professor in Bio-Chemistry</li>
+                      <li>Dr.  Bidisha Datta, Assistant Professor in Bachelor of Business Administration </li>
+                      <li>Dr.  Kuntal Kanti Goswami, Assistant Professor in Microbiology</li>
+                      <li>Dr.  Monoj Kumar Barman, Assistant Professor in Chemistry</li>
+                      <li>Smt  Lopamudra Mukherjee, SACT in Zoology</li>
+                      <li>Dr.  Sayanti Kar, SACT in Environmental Science </li>
+                      <li>Dr.  Indrajit Ghosh, SACT in Environmental Science </li>
+                      <li>Smt.  Sneha Dutta, SACT in Bachelor of Business Administration</li>
+                      <li>Smt.  Samanwita Das, SACT in Bengali</li>
+                      <li>Smt.  Ananya Das, SACT in Bengali</li>
+                      <li>Dr.  Gourab Bera, SACT in Geography</li>
+                      <li>Sri Rishi Bhattacharjee, SACT in Computer Science</li>
+                    </ol>
+        
+          
+	  </div>
+    </div>
+ </div>-->
+
+  </main>
+  <!-- FOOTER -->
+
+  
+
+
+
+<!--<footer class="container-fluid footer-pd bg-ecs bg-footer-area">
+
+    <!-- Footer 
+
+
+
+    <div class="row">
+
+        <div class="col-md-3">
+
+        <!--<h4 class="footer-cap">Quick Links</h4>
+
+            
+
+                        <section id="block-10" class="widget widget_block address-area"><h4>The Campus</h4>
+
+<address>
+
+	<strong style="color:#43A6C6">Asutosh College - Main Building</strong><br>
+
+	<span>92, Shyamaprasad Mukherjee Road.<br>
+
+		  Kolkata. West Bengal. India.<br>
+
+		  PIN - 700 026</span><br>
+
+	<span>Mail : <a href="mailto:mail@asutoshcollege.in">mail@asutoshcollege.in</a></span><br>
+
+	<abbr>O : </abbr> 91 (033) 2455 4504, 2454 2371<br>
+
+	<abbr>F : </abbr> 91 (033) 2486 3006 <br>
+
+	Google Map:<a href="https://goo.gl/maps/4z6PdcvN11Rut7hr5" target="_blank">  <img src="images/google-map-logo.png" height="32"></a><br>
+
+</address></section>        </div>
+
+        <div class="col-md-3">
+
+            <section id="block-6" class="widget widget_block address-area"><address>
+
+	<strong style="color:yellow">Asutosh College - Annexe Building</strong><br>
+
+	<span>10, Basanta Bose Road.<br>
+
+		  Kolkata. West Bengal. India.<br>
+
+		  PIN - 700 026</span><br>
+
+Google Map:<a href="https://goo.gl/maps/4z6PdcvN11Rut7hr5" target="_blank">  <img src="images/google-map-logo.png" height="32"></a><br>
+
+</address>
+
+			<address>
+
+	<strong style="color:#3F0">Asutosh College - Enquiry Office</strong><br>
+
+	<span>14, Basanta Bose Road.<br>
+
+		  Kolkata. West Bengal. India.<br>
+
+		  PIN - 700 026<br>
+
+Google Map:<a href="https://goo.gl/maps/ejrf8FYupkWiTbFK6" target="_blank"><img src="images/google-map-logo.png" height="32"></a><br>
+
+</address>
+
+
+
+</section>          
+
+        </div>
+
+        <div class="col-md-3">           
+
+            <section id="block-7" class="widget widget_block address-area"><address>
+
+	<strong style="color:pink">Asutosh College - Humanities Block</strong><br>
+
+	<span>14, Basanta Bose Road.<br>
+
+		  Kolkata. West Bengal. India.<br>
+
+		  PIN - 700 026</span> <br>
+
+Google Map: <a href="https://goo.gl/maps/ejrf8FYupkWiTbFK6" target="_blank"><img src="images/google-map-logo.png" height="32"></a><br> 
+
+</address>
+
+<address>
+
+	<strong style="color:#00FF00">Asutosh College - Second Campus</strong><br>
+
+	<span>Dimond Harbour Road, <br>
+
+		  Vasa Naur Bad Bhasa<br>
+
+		  West Bengal. India.<br>
+
+		  PIN - 743503</span>
+
+<p style="color:#FFF;">Google Map: <a href="https://goo.gl/maps/3HeSkiu1mFsJGmxT7" target="_blank"><img src="images/google-map-logo.png" height="32"></a></p>
+
+</address>
+
+</section>        
+
+        </div>
+
+        <div class="col-md-3" style="margin-bottom:10px">        
+
+            <section id="block-9" class="widget widget_block address-area"><address>
+
+	<strong style="color:#DDA0DD">Asutosh College - Research Center</strong><br>
+
+	<span>128/9, Hazra Road,<br>
+
+		  PO: Kalikhat, PS: Bhowanipore,<br> 	
+
+		  Kolkata. West Bengal. India.<br>
+
+		  PIN - 700 026</span><br>
+
+Google Map:<a href="https://goo.gl/maps/4z6PdcvN11Rut7hr5" target="_blank">  <img src="images/google-map-logo.png" height="32"></a><br>
+
+</address>
+
+<address>
+
+	<strong style="color:#3F0">Asutosh College Centenary Building</strong><br>
+
+	<span>25, Kalighat Rd, Jatin Das Park, Patuapara,<br>
+
+		  Bhowanipore, Kolkata, West Bengal<br>
+
+		  PIN - 700 025</span> <br>
+
+Google Map: <a href="https://goo.gl/maps/4z6PdcvN11Rut7hr5" target="_blank"><img src="images/google-map-logo.png" height="32"></a><br>
+
+</address></section>         
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid footer-bootom-bg">
+
+    <div class="col-md-12 text-center">
+
+        <div class="col-sm-12 visitor-counter">
+
+        <aside class="widget" id="visitor-counter">          
+
+        <div class="visitor-counter-content" style="color: ; font-family: ;" >
+
+            <!--<p>Today: </p>-->
+
+            <!--<p>Yesterday: </p>-->
+
+            <!--<p>This Week: </p>-->
+
+            <!--<p>This Month: </p>
+
+            <p>Total Visitors: 340</p>
+
+            <!--<p>Currently Online: </p>
+
+        </div>
+
+        </aside>
+
+        
+
+        </div>
+
+        <p class="footer-copyright-txt">Copyright All Right Reserved 2021, Asutosh College
+
+        </p>
+
+    </div>
+
+	
+
+ </footer>-->  
+
+<div id="footer"></div>  
+
+<!--Footer end here-->
+
+   	<script type='text/javascript' src='index.html/wp-content/plugins/metronet-profile-picture/js/mpp-frontend.js?ver=2.6.0' id='mpp_gutenberg_tabs-js'></script>
+<script type='text/javascript' src='index.html/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='index.html/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/ecsprojects.net\/asutoshcollege\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='index.html/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.4.2' id='contact-form-7-js'></script>
+<script type='text/javascript' id='wpcf7-redirect-script-js-extra'>
+/* <![CDATA[ */
+var wpcf7r = {"ajax_url":"https:\/\/ecsprojects.net\/asutoshcollege\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='index.html/wp-content/plugins/wpcf7-redirect/build/js/wpcf7-redirect-frontend-script.js?ver=1.1' id='wpcf7-redirect-script-js'></script>
+<script type='text/javascript' src='index.html/wp-content/themes/asutoshcollege/js/bootstrap.bundle.min.js?ver=5.8.1' id='bootstrap-min-js'></script>
+<script type='text/javascript' src='index.html/wp-content/themes/asutoshcollege/js/jquery.bootstrap.newsbox.min.js?ver=5.8.1' id='newsbox-min-js'></script>
+<script type='text/javascript' src='index.html/wp-content/themes/asutoshcollege/js/jquery.flexisel.js?ver=5.8.1' id='flexisel-js'></script>
+<script type='text/javascript' src='index.html/wp-content/themes/asutoshcollege/js/developer.js?ver=5.8.1' id='developer-js'></script>
+<script type='text/javascript' src='index.html/wp-content/themes/asutoshcollege/js/jquery.ticker.js?ver=5.8.1' id='ticker-js'></script>
+<script type='text/javascript' src='index.html/wp-content/themes/asutoshcollege/js/jquery.twbsPagination.js?ver=5.8.1' id='pagination-js'></script>
+<script type='text/javascript' src='index.html/wp-includes/js/hoverIntent.min.js?ver=1.10.1' id='hoverIntent-js'></script>
+<script type='text/javascript' id='megamenu-js-extra'>
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='index.html/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=2.9.4' id='megamenu-js'></script>
+<script type='text/javascript' src='index.html/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+  </body>
+</html>
+      
+  </body>
+</html>
+
+</body>
+</html>
