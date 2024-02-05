@@ -62,7 +62,7 @@ const Preguntas = () => {
           >
             <AccordionHeader
               onClick={() => handleOpen(1)}
-              className=" font-anten text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px] "
+              className=" font-anten text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px] "
             >
               ¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis
               plataformas de juegos?
@@ -80,7 +80,7 @@ const Preguntas = () => {
           >
             <AccordionHeader
               onClick={() => handleOpen(2)}
-              className=" font-anten text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
+              className=" font-anten text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
             >
               {" "}
               ¿Cómo garantizan la seguridad de las operaciones en sus juegos?
@@ -98,7 +98,7 @@ const Preguntas = () => {
           >
             <AccordionHeader
               onClick={() => handleOpen(3)}
-              className=" font-anten text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
+              className=" font-anten text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
             >
               {" "}
               ¿Cuáles son las opciones de juego disponibles en las versiones
@@ -117,7 +117,7 @@ const Preguntas = () => {
           >
             <AccordionHeader
               onClick={() => handleOpen(4)}
-              className=" font-anten text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
+              className=" font-anten text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
             >
               ¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?
             </AccordionHeader>
@@ -134,7 +134,7 @@ const Preguntas = () => {
           >
             <AccordionHeader
               onClick={() => handleOpen(5)}
-              className=" font-anten text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
+              className=" font-anten text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
             >
               ¿Qué métodos de pago aceptan?
             </AccordionHeader>
@@ -151,7 +151,7 @@ const Preguntas = () => {
           >
             <AccordionHeader
               onClick={() => handleOpen(6)}
-              className=" font-anten text-[20px] sm:text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
+              className=" font-anten text-[16px] md:text-[20px] py-0 text-start font-normal text-white leading-[26px]"
             >
               ¿Puedo probar sus juegos antes de comprometerme?
             </AccordionHeader>
