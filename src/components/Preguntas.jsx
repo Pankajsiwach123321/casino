@@ -49,7 +49,7 @@ const Preguntas = () => {
 
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
-    <div className=" relative z-[1]">
+    <div className=" relative z-[1]" id="Mision">
       <div className="max-w-[970px] mx-auto px-3 mt-[50px] md:mt-[150px]">
         <div className="">
           <h2 className=" text-2xl sm:text-5xl font-anten leading-[120%] font-normal text-center pb-[60px] text-white">

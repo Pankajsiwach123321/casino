@@ -10,7 +10,7 @@ import dice from "../assets/image/dice.webp";
 import threeseven from "../assets/image/barseven.webp";
 const Ofertas = () => {
   return (
-    <div className=" relative z-[1] overflow-x-clip">
+    <div className=" relative z-[1] overflow-x-clip" id="Ofertas">
       <div className=" max-w-[1140px] px-3 mx-auto pt-[50px] md:pt-[150px]">
         <h2
           data-aos="fade-down"

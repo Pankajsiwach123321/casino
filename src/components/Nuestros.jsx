@@ -78,9 +78,9 @@ const Nuestros = () => {
     <div key={index} className="md:w-1/3 sm:w-1/2 w-full  px-3 pt-6">
       <div
         data-aos={e.aos}
-        className=" bg-transparent hover:bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] duration-300 p-[1px] rounded-[8px]"
+        className=" bg-transparent group hover:bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] duration-300 p-[1px] rounded-[8px]"
       >
-        <div className=" relative z-[1] group overflow-hidden  rounded-[8px]">
+        <div className=" relative z-[1]  overflow-hidden  rounded-[8px]">
           <img src={e.img} alt="jetx" className=" w-full h-ful" />
           <div className="bg-[#000000B8] group-hover:opacity-100 group-hover:scale-100 scale-0 opacity-0 duration-300 w-full h-full flex justify-center items-center absolute left-0 top-0">
             <Button

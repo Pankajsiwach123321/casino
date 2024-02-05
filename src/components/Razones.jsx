@@ -3,7 +3,7 @@ import tripleseven from "../assets/image/tripleseven.webp";
 import { Blub2, Currency, Member } from "../assets/svg/icon";
 const Razones = () => {
   return (
-    <div className="relative z-[1] overflow-x-clip">
+    <div className="relative z-[1] overflow-x-clip" id="Tragamonedas">
       <div className=" max-w-[1140px] mx-auto px-3 mt-[50px] md:mt-[100px]">
         <div className="row">
           <div className="sm:w-1/2 w-full ps-3 pe-3 sm:pe-5">

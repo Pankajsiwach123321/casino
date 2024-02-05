@@ -26,9 +26,9 @@ const JackPot = () => {
     <div key={index} className="md:w-1/3 sm:w-1/2 w-full  px-3 pt-6">
       <div
         data-aos={e.aos}
-        className="hover:shadow-[7px_9px_15px_0px_#00000033] duration-300 p-[1px] rounded-[8px]"
+        className="hover:shadow-[7px_9px_15px_0px_#00000033] group duration-300  rounded-[8px]"
       >
-        <div className=" relative z-[1] group overflow-hidden  rounded-[8px]">
+        <div className=" relative z-[1]  overflow-hidden  rounded-[8px] m-[1px]">
           <img src={e.img} alt="jetx" className=" w-full h-ful" />
           <div className="bg-[#000000B8] group-hover:opacity-100 group-hover:scale-100 scale-0 opacity-0 duration-300 w-full h-full flex justify-center items-center absolute left-0 top-0">
             <Button
@@ -41,7 +41,10 @@ const JackPot = () => {
     </div>
   ));
   return (
-    <div className="bg-[url(./assets/image/bg-jackpot.webp)] bg-100% bg-no-repeat relative z-[1] overflow-x-clip">
+    <div
+      className="bg-[url(./assets/image/bg-jackpot.webp)] bg-100% bg-no-repeat relative z-[1] overflow-x-clip"
+      id="JackPot"
+    >
       <div className=" max-w-[1140px] mx-auto px-3 py-[45px] sm:py-[100px]">
         <div className="row">
           <div

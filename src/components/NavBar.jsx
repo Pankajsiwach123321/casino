@@ -33,35 +33,35 @@ const NavBar = () => {
                 >
                   <a
                     onClick={hide}
-                    href="#"
+                    href="#Hogar"
                     className=" font-inter text-base dont-medium text-white leading-[26px] navhover"
                   >
                     Hogar
                   </a>
                   <a
                     onClick={hide}
-                    href="#"
+                    href="#Mision"
                     className=" font-inter text-base dont-medium text-white leading-[26px] navhover"
                   >
                     Misión
                   </a>
                   <a
                     onClick={hide}
-                    href="#"
+                    href="#Tragamonedas"
                     className=" font-inter text-base dont-medium text-white leading-[26px] navhover"
                   >
                     Tragamonedas
                   </a>
                   <a
                     onClick={hide}
-                    href="#"
+                    href="#JackPot"
                     className=" font-inter text-base dont-medium text-white leading-[26px] navhover"
                   >
                     Por qué elegirnos
                   </a>
                   <a
                     onClick={hide}
-                    href="#"
+                    href="#Ofertas"
                     className=" font-inter text-base dont-medium text-white leading-[26px] navhover"
                   >
                     Ofertas
