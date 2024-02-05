@@ -23,18 +23,18 @@ const Razones = () => {
             </h2>
             <div
               data-aos="fade-left"
-              className="bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] p-[1px] rounded-[16px] w-full h-full max-h-[116px]  sm:max-w-[374px] mt-6"
+              className="bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] cursor-pointer group p-[1px] rounded-[16px] w-full h-full max-h-[116px]  sm:max-w-[374px] mt-6"
             >
               <div className="bg-[#051C20]  py-6 pl-3 md:pl-[56px] pr-3 w-full h-full rounded-[15px] ">
                 <div className="flex gap-[37px]">
-                  <div className=" max-w-[68px] max-h-[68px] rounded-[73px] p-[16px] bg-[#0F2E28]">
+                  <div className=" max-w-[68px] max-h-[68px] rounded-[73px] p-[16px] bg-[#0F2E28]  group-hover:bg-[#79ffc928] duration-300 ">
                     <Blub2 />
                   </div>
                   <div>
-                    <p className=" font-anten font-normal text-[32px] leading-[41px] text-white">
+                    <p className=" font-anten font-normal text-[32px] leading-[41px] text-white group-hover:text-[#79ffc9] duration-300">
                       200
                     </p>
-                    <p className=" font-inter font-medium text-base leading-[25px] text-white">
+                    <p className=" font-inter font-medium text-base leading-[25px] text-white group-hover:text-[#79ffc9] duration-300">
                       Páginas creadas
                     </p>
                   </div>
@@ -43,18 +43,18 @@ const Razones = () => {
             </div>
             <div
               data-aos="fade-left"
-              className="bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] p-[1px] rounded-[16px] w-full h-full max-h-[116px]  sm:max-w-[374px] mt-6"
+              className="bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] cursor-pointer group p-[1px] rounded-[16px] w-full h-full max-h-[116px]  sm:max-w-[374px] mt-6"
             >
               <div className="bg-[#051C20]  py-6 pl-3 md:pl-[56px] pr-3 w-full h-full rounded-[15px] ">
                 <div className="flex gap-[37px]">
-                  <div className=" max-w-[68px] max-h-[68px] rounded-[73px] p-[16px] bg-[#0F2E28]">
+                  <div className=" max-w-[68px] max-h-[68px] rounded-[73px] p-[16px] bg-[#0F2E28] group-hover:bg-[#79ffc928] duration-300 ">
                     <Member />
                   </div>
                   <div>
-                    <p className=" font-anten font-normal text-[32px] leading-[41px] text-white">
+                    <p className=" font-anten font-normal text-[32px] leading-[41px] text-white group-hover:text-[#79ffc9] duration-300">
                       98%
                     </p>
-                    <p className=" font-inter font-medium text-base leading-[25px] text-white">
+                    <p className=" font-inter font-medium text-base leading-[25px] text-white group-hover:text-[#79ffc9] duration-300">
                       Clientes Satisfechas
                     </p>
                   </div>
@@ -63,18 +63,18 @@ const Razones = () => {
             </div>
             <div
               data-aos="fade-left"
-              className="bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] p-[1px] rounded-[16px] w-full h-full max-h-[116px]  sm:max-w-[374px] mt-6"
+              className="bg-[linear-gradient(306.99deg,#51C8EF_-13.72%,#7AF57A_102.02%)] cursor-pointer group p-[1px] rounded-[16px] w-full h-full max-h-[116px]  sm:max-w-[374px] mt-6"
             >
               <div className="bg-[#051C20]  py-6 pl-3 md:pl-[56px] pr-3 w-full h-full rounded-[15px] ">
                 <div className="flex gap-[37px]">
-                  <div className=" max-w-[68px] max-h-[68px] rounded-[73px] p-[16px] bg-[#0F2E28]">
+                  <div className=" max-w-[68px] max-h-[68px] rounded-[73px] p-[16px] bg-[#0F2E28] group-hover:bg-[#79ffc928] duration-300">
                     <Currency />
                   </div>
                   <div>
-                    <p className=" font-anten font-normal text-[32px] leading-[41px] text-white">
+                    <p className=" font-anten font-normal text-[32px] leading-[41px] text-white group-hover:text-[#79ffc9] duration-300">
                       200
                     </p>
-                    <p className=" font-inter font-medium text-base leading-[25px] text-white">
+                    <p className=" font-inter font-medium text-base leading-[25px] text-white group-hover:text-[#79ffc9] duration-300">
                       Divisas Disponibles
                     </p>
                   </div>

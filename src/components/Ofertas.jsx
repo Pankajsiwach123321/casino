@@ -14,7 +14,7 @@ const Ofertas = () => {
       <div className=" max-w-[1140px] px-3 mx-auto pt-[50px] md:pt-[150px]">
         <h2
           data-aos="fade-down"
-          className=" text-white text-[24px] md:text-[30px] lg:text-[36px] xl:text-[48px] text-center leading-[57px] font-normal font-anten "
+          className=" text-white text-[30px] lg:text-[36px] xl:text-[48px] text-center leading-[57px] font-normal font-anten "
         >
           Nuestras ofertas
         </h2>
@@ -52,7 +52,7 @@ const Ofertas = () => {
               </p>
               <h2
                 data-aos="fade-down"
-                className=" text-white text-[24px] md:text-[30px] lg:text-[36px] xl:text-[48px] leading-[57px] font-normal font-anten pt-8 "
+                className=" text-white text-[30px] lg:text-[36px] xl:text-[48px] leading-[57px] font-normal font-anten pt-4 md:pt-8 "
               >
                 $5000
               </h2>
@@ -142,7 +142,7 @@ const Ofertas = () => {
               </p>
               <h2
                 data-aos="fade-down"
-                className=" text-white text-center text-[24px] md:text-[30px] lg:text-[36px] xl:text-[48px] leading-[57px] font-normal font-anten pt-8 "
+                className=" text-white text-center text-[30px] lg:text-[36px] xl:text-[48px] leading-[57px] font-normal font-anten pt-4 md:pt-8 "
               >
                 $9000
               </h2>
@@ -250,7 +250,7 @@ const Ofertas = () => {
               </p>
               <h2
                 data-aos="fade-down"
-                className=" text-white text-[24px] md:text-[30px] lg:text-[36px] xl:text-[48px] leading-[57px] font-normal font-anten pt-8 "
+                className=" text-white text-[30px] lg:text-[36px] xl:text-[48px] leading-[57px] font-normal font-anten pt-4 md:pt-8 "
               >
                 Consultar precio
               </h2>
